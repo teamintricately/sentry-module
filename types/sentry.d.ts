@@ -64,6 +64,7 @@ export interface ModuleConfiguration {
     logMockCalls?: boolean
     publishRelease?: boolean
     repo?: string
+    publicRuntimeConfigKey?: string
     serverConfig?: SentryOptions
     serverIntegrations?: IntegrationsConfiguration
     sourceMapStyle?: WebpackOptions.Devtool
